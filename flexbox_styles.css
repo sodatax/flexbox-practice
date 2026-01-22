@@ -2,6 +2,8 @@
 TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
+
+/* Header */
 header{
     display: flex;
     justify-content: space-around;
@@ -12,15 +14,31 @@ header nav{
     padding: 1rem 2rem;
 }
 
+/* Cards */
 .card-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .card{
-    margin: 0 auto;
-    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+/* Features  */
+.features{
+    display: flex;
+    justify-content: center;
+}
+
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer */
 
 
 /* 
